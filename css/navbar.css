@@ -1,0 +1,41 @@
+nav {
+    width: 80%;
+    margin: auto;
+}
+nav a {
+    padding: 1em 0;
+    color: whitesmoke;
+    background-color: darkslategray;
+    text-decoration: none;
+    border: 1px solid darkslategray;
+    text-align: center;
+}
+
+nav a:hover, nav a:focus {
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+
+@supports (display: grid) {
+    nav {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@supports not (display: grid) {
+    nav {
+        display: inline;
+    }
+    nav a {
+        display: block;
+        float: left;
+        position: relative;
+    }
+}
+
+@media (max-width:500px) {
+    nav {
+        grid-template-columns: repeat(1, auto);
+    }
+}
