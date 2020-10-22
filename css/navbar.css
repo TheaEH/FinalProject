@@ -21,6 +21,12 @@ nav a:hover, nav a:focus {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }
+
+    @media (max-width:500px) {
+        nav {
+            grid-template-columns: repeat(1, auto);
+        }
+    }
 }
 
 @supports not (display: grid) {
@@ -32,10 +38,11 @@ nav a:hover, nav a:focus {
         float: left;
         position: relative;
     }
-}
 
-@media (max-width:500px) {
-    nav {
-        grid-template-columns: repeat(1, auto);
+    @media (max-width:500px) {
+        nav a {
+            float: none;
+        }
     }
 }
+
