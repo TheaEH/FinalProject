@@ -36,8 +36,9 @@ main div {
 
 #list1{
     text-align: left;
-    margin: 20vw;
+    margin: 0 20vw;
 }
+
 main div p a{
     color: rgb(0, 94, 94);
 }
