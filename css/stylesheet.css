@@ -7,10 +7,10 @@ main div {
     font-weight: 500;
 }
 #largeImg {
-    background-image: url(../images/technology2.jpeg);
+    background-image: url(../images/empty_bottles.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center center;
     height: 50vh;
     box-shadow: inset rgb(43, 30, 43) 2em 2em 5em;
 }
