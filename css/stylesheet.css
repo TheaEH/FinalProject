@@ -33,6 +33,11 @@ main div {
 #text3 {
     background-color: #7C98B3;
 }
+
+#list1{
+    text-align: left;
+    margin: 20vw;
+}
 main div p a{
     color: rgb(0, 94, 94);
 }
