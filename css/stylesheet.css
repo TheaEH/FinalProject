@@ -3,6 +3,14 @@ main div {
     font-size: x-large;
     font-weight: 500;
 }
+#largeImg {
+    background-image: url(../images/technology2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 50vh;
+    box-shadow: inset rgb(43, 30, 43) 2em 2em 5em;
+}
 #text1 {
     background-color: #ACCBE1;
     text-align: center;
