@@ -1,0 +1,42 @@
+main div {
+    padding: 1em;
+    font-size: x-large;
+    font-weight: 500;
+}
+#text1 {
+    background-color: #ACCBE1;
+    text-align: center;
+}
+#text2 {
+    background-color: #CEE5F2;
+    text-align: center;
+}
+#text3 {
+    background-color: #ACCBE1;
+    text-align: center;
+}
+#text3 p a{
+    color: rgb(0, 94, 94);
+}
+
+#here {
+    color: whitesmoke;
+}
+
+img, picture {
+    height: 15em;
+}
+
+@media screen and (max-width: 800px) {
+    img, picture {
+        width: 100%;
+        height: auto;
+    }
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
+    .container p {
+        font-size: large;
+    }
+  }
