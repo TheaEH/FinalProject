@@ -36,7 +36,7 @@ main div {
 
 #list1{
     text-align: left;
-    margin: 0 20vw;
+    margin: 0 15vw;
 }
 
 main div p a{
@@ -51,6 +51,12 @@ img, picture {
     height: 15em;
 }
 
+@media screen and (max-width: 1000px) {
+    #list1{
+        text-align: left;
+        margin: 0 5vw;
+    }
+}
 @media screen and (max-width: 800px) {
     img, picture {
         width: 100%;
@@ -63,4 +69,4 @@ img, picture {
     .container p {
         font-size: large;
     }
-  }
+}
