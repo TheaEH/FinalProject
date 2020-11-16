@@ -20,7 +20,7 @@ nav {
 nav a {
     text-decoration: none;
     text-align: center;
-    color: whitesmoke;
+    color: #F5F5F5;
     padding: 1.5em 0;
     letter-spacing: 2px;
     width: 50%;
@@ -34,7 +34,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #536B78;
-    color: whitesmoke;
+    color: #F5F5F5;
     padding: 1em 0;
     font-size: large;
 }

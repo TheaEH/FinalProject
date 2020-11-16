@@ -12,7 +12,7 @@ main div {
     background-repeat: no-repeat;
     background-position: center center;
     height: 50vh;
-    box-shadow: inset rgb(21, 104, 129) 2em 2em 5em;
+    box-shadow: inset #0E4F63 2em 2em 5em;
 }
 .container {
     display: grid;
