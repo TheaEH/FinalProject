@@ -1,7 +1,7 @@
 #sources {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    padding: 2em 10vw;
+    grid-template-columns: repeat(1, auto);
+    padding: 2em 20vw;
     align-items: center;
     gap: 2em;
 }
@@ -18,10 +18,4 @@
 }
 .source p, .source h3{
     margin: 0.5em;
-}
-
-@media screen and (max-width: 800px) {
-    #sources {
-        grid-template-columns: repeat(1, auto);
-    }
 }

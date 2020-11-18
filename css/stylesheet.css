@@ -55,6 +55,7 @@ ul li::before {
 
 main div p a{
     color: #c96100;
+    font-weight: bolder;
 }
 
 .orange {
