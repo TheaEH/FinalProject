@@ -1,10 +1,13 @@
 body {
-    background-color: #7C98B3;
+    background-color: #ecf0f1;
 }
 main div {
     padding: 1em;
-    font-size: x-large;
+    font-size: 1.5rem;
+    line-height: 3rem;
     font-weight: 500;
+    color: #2d3436;
+    text-align: center;
 }
 #largeImg {
     background-image: url(../images/empty_bottles.jpeg);
@@ -12,7 +15,6 @@ main div {
     background-repeat: no-repeat;
     background-position: center center;
     height: 50vh;
-    box-shadow: inset #0E4F63 2em 2em 5em;
 }
 .container {
     display: grid;
@@ -21,17 +23,22 @@ main div {
     padding: 0;
     margin: 0 auto;
 }
-main div {
-    text-align: center;
+main div p {
+    letter-spacing: 1px;
+    margin: 1.5em 10vw;
 }
+.no_spacing {
+    margin: 0;
+}
+
 #text1 {
-    background-color: #ACCBE1;
+    background-color: #ffffff;
 }
 #text2 {
-    background-color: #CEE5F2;
+    background-color: #D8E4DC;
 }
 #text3 {
-    background-color: #7C98B3;
+    background-color: #ffffff;
 }
 
 #list1{
@@ -40,11 +47,11 @@ main div {
 }
 
 main div p a{
-    color: rgb(0, 94, 94);
+    color: #c96100;
 }
 
-#here {
-    color: whitesmoke;
+.orange {
+    color: #c96100;
 }
 
 img, picture {
