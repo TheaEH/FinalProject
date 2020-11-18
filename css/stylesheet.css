@@ -31,20 +31,26 @@ main div p {
     margin: 0;
 }
 
-#text1 {
+.white {
     background-color: #ffffff;
 }
-#text2 {
+.grey {
     background-color: #D8E4DC;
-}
-#text3 {
-    background-color: #ffffff;
 }
 
 #list1{
     text-align: left;
     margin: 0 15vw;
 }
+
+ul li::before {
+    content: "\2022";
+    color: #c96100;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
 
 main div p a{
     color: #c96100;
@@ -57,6 +63,8 @@ main div p a{
 img, picture {
     height: 15em;
 }
+
+
 
 @media screen and (max-width: 1000px) {
     #list1{

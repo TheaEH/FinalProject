@@ -1,0 +1,27 @@
+#sources {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 2em 10vw;
+    align-items: center;
+    gap: 2em;
+}
+.source {
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 1em;
+    line-height: normal;
+    border: 2px solid  #c96100;
+    background-color: #ecf0f1;
+}
+.source a {
+    color: #c96100;
+}
+.source p, .source h3{
+    margin: 0.5em;
+}
+
+@media screen and (max-width: 800px) {
+    #sources {
+        grid-template-columns: repeat(1, auto);
+    }
+}
