@@ -41,6 +41,7 @@ main div p {
 #list1{
     text-align: left;
     margin: 0 15vw;
+    border: solid #c96100;
 }
 
 ul li::before {
