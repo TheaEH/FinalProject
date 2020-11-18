@@ -27,56 +27,7 @@ nav a {
     text-transform: uppercase;
     font-weight: bolder;
     font-size: x-large;
-}
-
-.button {
-    background-color: #c96100;
-    color: #ffffff;
-    align-self: center;
-    justify-self: center;
-    padding: 1.5rem 3rem;
-    border-radius: 300px;
-}
-
-#arrow {
-    height: fit-content;
-}
-
-.back-to-top-button {
-    position: fixed;
-    bottom: 2.5rem;
-    right: 2.5rem;
-    border-radius: 50%;
-    border: none;
-    outline: none;
-    padding: 0;
-    color: #ffffff;
-    background-color: #c96100;
-    width: 4rem;
-    height: 4rem;
-}
-.back-to-top-button:hover .arrow{
-    border: solid #2d3436;
-    border-width: 0 7px 7px 0;
-    display: inline-block;
-    padding: 1em;
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-    position: relative;
-    top: 5px;
-}
-
-.arrow {
-    border: solid white;
-    border-width: 0 7px 7px 0;
-    display: inline-block;
-    padding: 1em;
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-    position: relative;
-    top: 5px;
-  }
-  
+}  
 
 footer {
     display: grid;

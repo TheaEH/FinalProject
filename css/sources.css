@@ -16,6 +16,9 @@
 .source a {
     color: #c96100;
 }
+.source h3 {
+    text-decoration: underline;
+}
 .source p, .source h3{
     margin: 0.5em;
 }
