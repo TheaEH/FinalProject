@@ -144,11 +144,20 @@ img, picture {
         width: 100%;
         height: auto;
     }
+    .bilde-div {
+        margin: 1.5em 0;
+    }
+    #text1 {
+        margin: 0 10vw;
+    }
     .container {
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
     }
     .container p {
         font-size: large;
+    }
+    #logo {
+        width: auto;
     }
 }
