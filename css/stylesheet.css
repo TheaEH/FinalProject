@@ -9,6 +9,11 @@ main div {
     color: #2d3436;
     text-align: center;
 }
+
+#logo {
+    height: 4em;
+}
+
 #largeImg {
     background-image: url(../images/empty_bottles.jpeg);
     background-size: cover;
