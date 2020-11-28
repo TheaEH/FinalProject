@@ -139,11 +139,17 @@ img, picture {
         margin: 0 5vw;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
     img, picture {
         width: 100%;
         height: auto;
     }
+    #logo {
+        width: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    
     .bilde-div {
         margin: 1.5em 0;
     }
@@ -157,7 +163,5 @@ img, picture {
     .container p {
         font-size: large;
     }
-    #logo {
-        width: auto;
-    }
+    
 }
