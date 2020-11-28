@@ -46,13 +46,13 @@ main div p {
 #list1{
     text-align: left;
     margin: 0 15vw;
-    border: solid #B85900;
+    border: solid #BD5B00;
     border-radius: 3em;
 }
 
 ul li::before {
     content: "\2022";
-    color: #B85900;
+    color: #BD5B00;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
@@ -68,12 +68,12 @@ ul li::before {
 
 
 main div p a{
-    color: #B85900;
+    color: #BD5B00;
     font-weight: bolder;
 }
 
 .orange {
-    color: #B85900;
+    color: #BD5B00;
 }
 
 img, picture {
