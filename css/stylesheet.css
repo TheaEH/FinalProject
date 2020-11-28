@@ -42,6 +42,9 @@ main div p {
 .grey {
     background-color: #D8E4DC;
 }
+.grey-text {
+    color: #D8E4DC;
+}
 
 #list1{
     text-align: left;
@@ -61,7 +64,7 @@ ul li::before {
 
 .bilde-div {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     margin: 1.5em 15vw;
     padding: 0;
 }
@@ -81,16 +84,40 @@ img, picture {
 }
 
 .bilde-div img {
-    align-self: center;
+    margin: auto;
     height: 50vh;
 }
 .bilde-div p {
     margin: 0 1.5em;
-    margin-right: 0;
     align-self: center;
 }
 
 
+@media screen and (max-width: 1700px) {
+    .bilde-div {
+        margin: 1.5em 10vw;
+    }
+}
+@media screen and (max-width: 1580px) {
+    .bilde-div {
+        margin: 1.5em 5vw;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .bilde-div {
+        grid-template-columns: repeat(2, auto);
+    }
+    #image1 {
+        margin-right: 0;
+    }
+    #text1 {
+        grid-area: 2/1/span 1/span 2;
+    }
+    #image2 {
+        grid-area: 1/2/span 1/span 1;
+        margin-left: 0;
+    }
+}
 @media screen and (max-width: 1300px) {
     .bilde-div {
         margin: 1.5em 10vw;
@@ -98,12 +125,12 @@ img, picture {
 }
 @media screen and (max-width: 1000px) {
     .bilde-div {
-        grid-template-columns: repeat(1, auto);
         margin: 1.5em 15vw;
     }
 
     .bilde-div img {
         margin: auto;
+        height: auto;
     }
 
     .bilde-div p {

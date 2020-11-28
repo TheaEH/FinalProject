@@ -9,6 +9,8 @@
 
 #arrow {
     height: fit-content;
+    position: absolute;
+    left: -100px;
 }
 
 .back-to-top-button {
